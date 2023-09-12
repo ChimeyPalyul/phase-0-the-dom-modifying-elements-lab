@@ -1,4 +1,6 @@
-document.querySelector("main#main").remove();
-const newHeader = document.createElement("h1");
-newHeader.id = "victory"
-newHeader.innerHTML = "Palyul is the champion"
+document.querySelector("main#main").remove()
+
+const newHeader = document.createElement('h1');
+    newHeader.id = 'victory'
+    newHeader.textContent = "Palyul is the champion"
+    
